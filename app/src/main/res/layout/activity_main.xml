@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginVertical="20dp"
+        android:hint="first name"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginVertical="20dp"
+        android:hint="last name"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginVertical="20dp"
+        android:hint="age"
+        android:textSize="20sp"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="159dp"
+        android:layout_height="51dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Switch"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Button" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:layout_gravity="bottom" />
+</LinearLayout>
